@@ -40,21 +40,39 @@
         <div class="container-xxl py-5">
             <div class="container px-lg-5">
                 
-            
-                                
+                 <ol class="list-group list-group-numbered">       
                   <?php                  
                   foreach ($data as $d) {
                     ?>                   
-                    <ol class="list-group list-group-numbered">
+                   
                         <li class="list-group-item d-flex justify-content-between align-items-start">
                             <div class="ms-2 me-auto">
                               <div class="fw-bold"><?php echo $d ?></div>                              
                           </div>
                       </li>
-                    </ol>
+                    
                     <?php
                 }
                 ?>
+                </ol>
+
+                <br>
+
+                <ol class="list-group list-group-numbered">       
+                  <?php                  
+                  foreach ($data2 as $d2) {
+                    ?>                   
+                   
+                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                            <div class="ms-2 me-auto">
+                              <div class="fw-bold"><?php echo $d2 ?></div>                              
+                          </div>
+                      </li>
+                    
+                    <?php
+                }
+                ?>
+                </ol>
 
             
         </div>
