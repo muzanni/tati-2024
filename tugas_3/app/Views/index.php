@@ -12,7 +12,8 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto py-0">                        
-                        <a href="<?php echo base_url('home/berita') ?>" class="nav-item nav-link">Berita</a>
+                        <a href="<?php echo base_url('home/') ?>" class="nav-item nav-link">Berita</a>
+                        <a href="<?php echo base_url('home/list') ?>" class="nav-item nav-link">List</a>
                     </div>                   
                 </div>
             </nav>
