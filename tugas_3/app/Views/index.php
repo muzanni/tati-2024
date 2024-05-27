@@ -48,9 +48,6 @@
                         </thead>
                         <tbody>
                            <?php
-
-                            $arr = array();
-
                            $no=1;
                            foreach ($data as $d) {
                             ?>                   
@@ -59,8 +56,6 @@
                                     <td><?php echo $d ?></td>
                                 </tr>
                             <?php
-
-                            $arr = $d;
                         }
                         ?>
                         </tbody>
@@ -89,18 +84,5 @@
                         </tbody>
                 </table>
 
-
-                
-
-
-
-                
-                  
-                
-
             </div>
         </div>
-        <!-- Service End -->
-
-
-
